@@ -1,0 +1,99 @@
+body {
+    font-family: "Open Sans TTF", sans-serif;
+    /* font-size: 1.6rem; */
+    color: #222;
+    line-height: 1.5;
+}
+.info-item {
+    margin-bottom: .5em;
+    font-weight: 300;
+}
+h5{
+    font-size: 2.86em;
+    font-weight: bold;
+}
+.info-label {
+    display: inline-block;
+    padding-right: 0.4em;
+    font-size: 1.14em;
+    min-width: 2.19em;
+    text-align: center;
+}
+.info-label i {
+    color: #42A2E0;
+}
+
+/* professional summary */
+.resume__section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.43em;
+}
+.resume__section-title>i {
+    margin-right: 0.63em;
+    font-size: 1.14em;
+    background: #42A2E0;
+    color: white;
+    border: 0.25em solid #a1d1f0;
+    border-radius: 50%;
+    width: 2.51em;
+    height: 2.51em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-size: 1.43em;
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.col-sm-12.professinal-summary-container {
+    margin-top: 8%;
+}
+.col-sm-5.side-container {
+    margin-top: 5%;
+}
+
+
+/* sidebar skills */
+.col-sm-5.side-container {
+    margin-top: 5%;
+    padding-left: 12%;
+}
+.extra {
+    margin-bottom: 2em;
+}
+.extra-details__progress {
+    background-color: #42A2E0;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.extra-details {
+    margin-top: 1em;
+    background-color: #D1D9E1;
+    width: 100%;
+    height: 5px;
+    position: relative;
+}
+
+
+
+.row.main-header {
+    padding-top: 5%;
+}
+
+/* employment history */
+
+.xp-job {
+    font-weight: bold;
+    font-size: 1.14em;
+}
+
+.xp-date {
+    margin-bottom: 1em;
+    color: #42A2E0;
+}
